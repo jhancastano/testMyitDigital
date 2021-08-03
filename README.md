@@ -1,6 +1,6 @@
-# testMyitDigital
+# TestMyitDigital
 
-PRUEBA TECNICA DESARROLLADOR .NET
+### PRUEBA TECNICA DESARROLLADOR .NET
 | item | valor |
 | ------------- | ------------- |
 | VERSIÓN | 2.0 |
