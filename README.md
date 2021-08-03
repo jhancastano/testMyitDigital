@@ -25,8 +25,8 @@ function isPalindrome(str){
 console.log( isPalindrome("anitalavalatina") )
 
 # 1.4 Sección Práctica
-# Se solicita crear una API Rest .Net con lenguaje VB que implemente el consumo de un endpoint y devuelva como respuesta un Json con la información que a continuación se explica:
-# Url del endpoint: https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=COP
-# Valores para extraer: Precio del día (PRICE), valor más alto del día (HIGHDAY), valor más bajo del día (LOWDAY) y la variación de las últimas 24 horas (CHANGEPCT24HOUR)
-# Los Atributos anteriormente solicitados debe ser extraídos solo de las criptomonedas: BITCOIN y THETER
+ Se solicita crear una API Rest .Net con lenguaje VB que implemente el consumo de un endpoint y devuelva como respuesta un Json con la información que a continuación se explica:
+ Url del endpoint:  
+https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=COP
+ Valores para extraer: Precio del día (PRICE), valor más alto del día (HIGHDAY), valor más bajo del día (LOWDAY) y la variación de las últimas 24 horas (CHANGEPCT24HOUR) Los Atributos anteriormente solicitados debe ser extraídos solo de las criptomonedas: BITCOIN y THETER
 
