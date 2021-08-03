@@ -16,14 +16,14 @@ json
 
 # Se solicita construir un método en el cual se reciba como parámetro una cadena y retorne si dicha cadena es palíndroma o no, recordar que una palabra “palíndromo” es aquella que se lee igual de izquierda a derecha o de derecha a izquierda. Par este punto puede utilizar el lenguaje de programación deseado, incluso pseudocódigo.
 
-
+`
 function isPalindrome(str){
     const strReversed = str.split("").reverse.join("")
     return str === strReversed ? "Es Palindromo": "No es palindromo"
 }
 
 console.log( isPalindrome("anitalavalatina") )
-
+`
 # 1.4 Sección Práctica
  Se solicita crear una API Rest .Net con lenguaje VB que implemente el consumo de un endpoint y devuelva como respuesta un Json con la información que a continuación se explica:
  Url del endpoint:  
