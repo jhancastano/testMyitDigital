@@ -37,7 +37,14 @@ https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=COP
 
 
 ## Configurar Web.config CREAR BASE DE DATOS sql server 
+modificar Data Source =  name server base de datos
 --------------------------
+```
+<connectionStrings>
+		<add name="connDB" connectionString="Data Source= LAPTOP-PF2MI9GQ; Initial Catalog = CRIPTO; Integrated security = True"/>
+	</connectionStrings>
+```
+
 ## Crear tabla en sql server
 ```sql
 CREATE TABLE criptoHistoric
