@@ -1,0 +1,3 @@
+@Imports testCripto.Areas.HelpPage.ModelDescriptions
+@ModelType SimpleTypeModelDescription
+@Model.Documentation

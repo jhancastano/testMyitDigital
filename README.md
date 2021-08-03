@@ -1,6 +1,9 @@
 # testMyitDigital
- technical test 
 
+PRUEBA TECNICA DESARROLLADOR .NET
+| ------------- | ------------- |
+|       VERSIÓN	| 2.0 |
+|		FECHA	|29/07/2021 |
 # 1.3 Sección Teórica
 
 ## ¿Qué son y para qué sirven los servicios web?
@@ -29,16 +32,26 @@ console.log( isPalindrome("anitalavalatina") )
 https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=COP
  Valores para extraer: Precio del día (PRICE), valor más alto del día (HIGHDAY), valor más bajo del día (LOWDAY) y la variación de las últimas 24 horas (CHANGEPCT24HOUR) Los Atributos anteriormente solicitados debe ser extraídos solo de las criptomonedas: BITCOIN y THETER
 
+
+
+
+## Configurar Web.config CREAR BASE DE DATOS sql server 
+--------------------------
 ## Crear tabla en sql server
 ```sql
 CREATE TABLE criptoHistoric
 (Id INT PRIMARY KEY IDENTITY (1,1) NOT NULL,
-Nombre VARCHAR(100) NOT NULL,
-PRICE FLOAT(53)NOT NULL,
-HIGHDAY FLOAT(53)NOT NULL,
-LOWDAY FLOAT(53)NOT NULL,
-CHANGEPCT24HOUR FLOAT(53)NOT NULL,
-DATEOPERATION DATETIME NOT NULL,
-HOUROPERATION TIME NOT NULL
+Nombre VARCHAR(100),
+PRICE FLOAT(53),
+HIGHDAY FLOAT(53),
+LOWDAY FLOAT(53),
+CHANGEPCT24HOUR FLOAT(53),
+DATEOPERATION DATETIME ,
+HOUROPERATION TIME 
 );
+```
+
+## Acceder a la api rest mediante la peticion get a la ruta :
+```
+/api/cripto
 ```
