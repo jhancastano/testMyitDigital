@@ -1,6 +1,7 @@
 # testMyitDigital
 
 PRUEBA TECNICA DESARROLLADOR .NET
+| item | valor |
 | ------------- | ------------- |
 | VERSIÓN | 2.0 |
 | FECHA |29/07/2021 |
