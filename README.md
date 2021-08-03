@@ -29,3 +29,16 @@ console.log( isPalindrome("anitalavalatina") )
 https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=COP
  Valores para extraer: Precio del día (PRICE), valor más alto del día (HIGHDAY), valor más bajo del día (LOWDAY) y la variación de las últimas 24 horas (CHANGEPCT24HOUR) Los Atributos anteriormente solicitados debe ser extraídos solo de las criptomonedas: BITCOIN y THETER
 
+## Crear tabla en sql server
+```sql
+CREATE TABLE criptoHistoric
+(Id INT PRIMARY KEY IDENTITY (1,1) NOT NULL,
+Nombre VARCHAR(100) NOT NULL,
+PRICE FLOAT(53)NOT NULL,
+HIGHDAY FLOAT(53)NOT NULL,
+LOWDAY FLOAT(53)NOT NULL,
+CHANGEPCT24HOUR FLOAT(53)NOT NULL,
+DATEOPERATION DATETIME NOT NULL,
+HOUROPERATION TIME NOT NULL
+);
+```
