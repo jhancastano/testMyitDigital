@@ -2,8 +2,8 @@
 
 PRUEBA TECNICA DESARROLLADOR .NET
 | ------------- | ------------- |
-|       VERSIÓN	| 2.0 |
-|		FECHA	|29/07/2021 |
+| VERSIÓN | 2.0 |
+| FECHA |29/07/2021 |
 # 1.3 Sección Teórica
 
 ## ¿Qué son y para qué sirven los servicios web?
