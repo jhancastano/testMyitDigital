@@ -10,9 +10,9 @@ son tecnologias que utilizan un conjunto de protocolos y estandares para interca
 la mayor diferencia es el formato en que se envian los mensajes de los servicios,en  SOAP se utiliza XML para todos los mensajes, en cambio rest puede usar difretes formatos de mensajes mas pequeños como son texto plano,HTML,XML,JSON.
 
 ## Mencione al menos 3 formatos en los cuáles una API Rest entrega información por medio de HTTP.
-texto plano
-html
-json
+1. texto plano
+2. html
+3. json
 
 ## Se solicita construir un método en el cual se reciba como parámetro una cadena y retorne si dicha cadena es palíndroma o no, recordar que una palabra “palíndromo” es aquella que se lee igual de izquierda a derecha o de derecha a izquierda. Par este punto puede utilizar el lenguaje de programación deseado, incluso pseudocódigo.
 
